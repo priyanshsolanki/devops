@@ -1,6 +1,6 @@
 import './App.css';
 import Card from './components/Card';
-import Sidebar from './components/Sidebar/sidebar';
+import Sidebar from './components/SideBar/index';
 
 function App() {
   return (

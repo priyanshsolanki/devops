@@ -8,7 +8,7 @@ import './style.css';
 
 const SidebarItem = (props) => {
   return(
-    <div class="SidebarItemContainer">SidebarItem</div>
+    <div className="SidebarItemContainer" {...props}>{props.logo}   {props.title}</div>
    )
 
  }

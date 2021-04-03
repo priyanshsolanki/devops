@@ -1,5 +1,6 @@
 import React from 'react';
 import SidebarItem from './SidebarItem';
+import * as SiIcons from 'react-icons/si';
 import './style.css';
 /**
 * @author
@@ -8,9 +9,9 @@ import './style.css';
 
 const SidebarItems = (props) => {
   return(
-    <div class="sidebarItemsContainer">
-        <SidebarItem/>
-        <SidebarItem/>
+    <div className="sidebarItemsContainer">
+        <SidebarItem title="PipeLines" logo={<SiIcons.SiAzuredevops/>}/>
+        <SidebarItem title="Infrastructure" logo={<SiIcons.SiAzuredevops/>}/>
     </div>
    )
 
