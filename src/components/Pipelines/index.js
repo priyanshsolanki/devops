@@ -12,6 +12,7 @@ const Pipelines = (props) => {
     {
       titleLogo:"CI",
       title:"CI Pipeline",
+      path:"/cipipeline",
       platforms:[
         "GitLab",
         "GitHub",
@@ -21,20 +22,39 @@ const Pipelines = (props) => {
     {
       titleLogo:"CD",
       title:"CD Pipeline",
-        platforms:[
+      path:"/cdpipeline",
+      platforms:[
           "GitLab",
           "Azure"]
      },
      {
       titleLogo:"PR",
       title:"PR Pipeline",
-        platforms:[
+      path:"/prpipeline",
+      platforms:[
           "GitLab",
           "Azure"]
      },
      {
       titleLogo:"AP",
-      title:"Artifact Pipeline",
+      title:"Artifact Promoting Pipeline",
+      path:"/appipeline",
+        platforms:[
+          "GitLab",
+          "Azure"]
+     },
+     {
+      titleLogo:"AT",
+      title:"API Test Pipeline",
+      path:"/atpipeline",
+        platforms:[
+          "GitLab",
+          "Azure"]
+     },
+     {
+      titleLogo:"LP",
+      title:"Load & Performance Test Pipeline",
+      path:"/lppipeline",
         platforms:[
           "GitLab",
           "Azure"]
