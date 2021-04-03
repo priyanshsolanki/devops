@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App" >
       <Sidebar/>
-      <div style={{marginLeft:'22%'}}>
-        <Card style={{width:'70%',height:'13%'}}/>
-        <Card style={{width:'70%',height:'77%',marginTop:'9%'}}/>
-      </div>
+      
+        <Card style={{width:'70%',height:'13%',marginLeft:'23%'}}/>
+        <Card style={{width:'70%',height:'77%',marginTop:'9%',marginLeft:'23%'}}/>
+      
     </div>
   );
 }
