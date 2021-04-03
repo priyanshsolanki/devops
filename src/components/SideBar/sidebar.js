@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from '../Card';
-
+import SidebarItems from './SidebarItems';
+import SidebarLogo from './SidebarLogo';
+import './style.css';
 /**
 * @author
 * @function Sidebar
@@ -8,10 +10,11 @@ import Card from '../Card';
 
 const Sidebar = (props) => {
   return(
-      <div>
+      <div class="sidebarContainer">
     <Card style={{width:'20%',height:'93%'}}>  
-        <div style={{fontSize:'30px',fontWeight:'bold'}}>DevOps</div>
-        <span>in-the-box</span>
+        <SidebarLogo/>
+        <SidebarItems/>
+        
     </Card>
     </div>
    )
