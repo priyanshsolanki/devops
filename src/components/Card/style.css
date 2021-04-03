@@ -1,0 +1,7 @@
+.card{
+    background-color: #b6b6b6;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    margin: 20px;
+}

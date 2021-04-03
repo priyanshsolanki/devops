@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import SideBar from './components/SideBar';
+import Card from './components/Card';
+import Sidebar from './components/Sidebar/sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <SideBar/>
+    <div className="App" >
+      <Sidebar/>
+      <div style={{marginLeft:'22%'}}>
+        <Card style={{width:'70%',height:'13%'}}/>
+        <Card style={{width:'70%',height:'77%',marginTop:'9%'}}/>
+      </div>
     </div>
   );
 }
