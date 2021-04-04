@@ -9,8 +9,8 @@ function App() {
     <div className="App" >
       <Sidebar/>
       
-        <Card style={{width:'70%',height:'10%',marginLeft:'23%'}}/>
-        <Card style={{width:'70%',height:'77%',marginTop:'7%',marginLeft:'23%'}}>
+        <Card style={{width:'76%',height:'10%',marginLeft:'23%'}}/>
+        <Card style={{width:'76%',height:'81%',marginTop:'7%',marginLeft:'23%'}}>
           <Router>
           <Route path="/" exact component={Pipeline}/>
           <Route path="/cipipeline" exact component={CiPipeline}/>
