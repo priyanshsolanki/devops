@@ -4,3 +4,11 @@
 .cipipeline img{
     width:700px;
 }
+.rightBarContainer{
+    text-align: center;
+}
+.rightBarContainer p{
+    font-size: small;
+    padding: 5px;
+    margin-bottom: 7px;
+}
