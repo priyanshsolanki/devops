@@ -9,7 +9,7 @@ import './style.css';
 const SidebarLogo = (props) => {
   return(
     <div class="sidebarLogoContainer">
-        <div>
+        <div style={{margin:"10px",background:"#FFF",padding:"10px"}}>
           Img
         </div>
         <div>
