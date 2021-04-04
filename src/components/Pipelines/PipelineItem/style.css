@@ -16,8 +16,8 @@
     font-size:20px;
     font-weight: bold;
     border-radius: 60px;
-    background: #FF6347;
-    border: 3px solid #FF6347;
+    background: #FB6C51;
+    border: 3px solid #FB6C51;
 }
 .pipelineContent{
     display: flex;
@@ -30,7 +30,7 @@
     width: 85px;
     margin-left: 20px;
     margin-top: 10px;
-    color: orangered;
+    color: #FB6C51;
     font-size: small    ;
     border-radius:20px ;
     background-color: rgb(252, 222, 222);

@@ -10,7 +10,7 @@ import './style.css';
 const SidebarItems = (props) => {
   return(
     <div className="sidebarItemsContainer">
-        <SidebarItem title="PipeLines" logo={<SiIcons.SiAzuredevops/>}/>
+        <SidebarItem title="Pipeline" logo={<SiIcons.SiAzuredevops/>}/>
         <SidebarItem title="Infrastructure" logo={<SiIcons.SiAzuredevops/>}/>
     </div>
    )

@@ -5,7 +5,56 @@
     border: 2px solid white;
     border-radius: 10px;
     width: 80%;
+    right: 0px;
+    top: 0;
+    transform: skewX(-20deg);
     color: thistle;
     height: 30px;
     
+}
+.btn {
+    display: inline-block;
+    background: #F75054;
+    border: .125em solid transparent;
+    width: 170px;
+    height: 17px;
+    
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    font: 'Poppins, sans-serif;';
+    text-decoration: none;
+    border-radius: 10px 0px 10px 10px;
+    justify-content: center;
+    margin: 10px 0px;
+    white-space: nowrap;	       
+    font-size: 13px;
+    margin-right: 3em;
+    
+}
+
+
+.btn:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #F75054;
+    padding: 10px;
+    border: .125em solid transparent;
+    width: 0.125em;
+    border-radius: 0px 10px 10px 0px;
+    height: 16px    ;
+    top: -.125em;
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    transform-origin: bottom left;
+    
+}
+.btn:after {
+    right: -.25em;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    border-left: none;
 }

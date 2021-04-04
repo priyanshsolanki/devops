@@ -64,7 +64,7 @@ const Pipelines = (props) => {
 
   return(
     <div style={{margin:'20px'}}>
-        <h2>All Results</h2>
+        <span className="heading">All Results</span>
 
         <div className="pipelineItemsContainer">
         {pipeline.map(pipe=>{

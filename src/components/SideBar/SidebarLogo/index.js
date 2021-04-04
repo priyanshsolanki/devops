@@ -9,8 +9,13 @@ import './style.css';
 const SidebarLogo = (props) => {
   return(
     <div class="sidebarLogoContainer">
+        <div>
+          Img
+        </div>
+        <div>
         <div style={{fontSize:'30px',fontWeight:'bold'}}>DevOps</div>
-        <span>In-a-box</span>
+        <span style={{color:'red'}}>In-a-box</span>
+        </div>
     </div>
    )
 

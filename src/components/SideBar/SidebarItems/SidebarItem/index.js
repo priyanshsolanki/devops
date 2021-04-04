@@ -8,7 +8,9 @@ import './style.css';
 
 const SidebarItem = (props) => {
   return(
-    <div className="SidebarItemContainer" {...props}>{props.logo}   {props.title}</div>
+    <div className="btn" {...props}>
+      <span style={{marginRight:'15px',marginLeft:'10px'}}>{props.logo}</span>    {props.title}
+    </div>
    )
 
  }
