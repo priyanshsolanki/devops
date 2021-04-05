@@ -40,7 +40,7 @@ const CiPipeline = (props) => {
         <FormControlLabel value="azure" control={<Radio />} label="Azure" />
       </RadioGroup>
     </FormControl>
-    <Card style={{width:'200px',background:'#000',height:'30px',color:'#fff',textAlign:'center',marginLeft:'40px'}}><span>Download</span></Card>
+    <Card style={{width:'200px',background:'rgb(247,80,84)',height:'30px',color:'#fff',textAlign:'center',display:'flex',justifyContent:'center',alignItems:'center',marginLeft:'40px'}}><span>Download</span></Card>
           </div>
     
      
