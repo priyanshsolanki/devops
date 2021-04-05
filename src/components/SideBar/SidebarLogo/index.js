@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import HeaderImage from './header.png';
 /**
 * @author
 * @function SidebarLogo
@@ -9,9 +9,7 @@ import './style.css';
 const SidebarLogo = (props) => {
   return(
     <div class="sidebarLogoContainer">
-        <div style={{margin:"10px",background:"#FFF",padding:"10px"}}>
-          Img
-        </div>
+        <img style={{background:'transparent'}} src={HeaderImage}/>
         <div>
         <div style={{fontSize:'30px',fontWeight:'bold'}}>DevOps</div>
         <span style={{color:'red'}}>In-a-box</span>

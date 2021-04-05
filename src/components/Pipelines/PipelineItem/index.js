@@ -15,7 +15,7 @@ const PiplineItem = (props) => {
 
     <Card style={{ width: '290px', height: '170px', background: '#ffff', position: 'relative', borderRadius: '20px' }}>
       <div className="pipelineItemHeader">
-        <div className="piplineLogo">{props.data.titleLogo} </div>
+        <div className="piplineLogo"><span style={{fontWeight:'bold'}}>{props.data.titleLogo}</span> </div>
         <Link style={{textDecoration:'none',color:'#000',marginTop: '20px',width: '200px'}} to={props.data.path}><span>{props.data.title}</span></Link>
     
         <BiDotsVerticalRounded  style={{marginTop:'10px',width:'30px',height:'30px'}}/>

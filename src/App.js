@@ -7,19 +7,20 @@ import CiPipeline from './components/Pipelines/CiPipeline/index';
 import BlackDashboardScreenComponent from './BlackDashboardScreenComponent';
 function App() {
   return (
+    <Router>
     <div className="App" >
       {/* <BlackDashboardScreenComponent/> */}
       <Sidebar/>
       
         <Card style={{width:'76%',height:'10%',marginLeft:'23%'}}/>
         <Card style={{width:'76%',height:'81%',marginTop:'7%',marginLeft:'23%'}}>
-          <Router>
-          <Route path="/" exact component={Pipeline}/>
-          <Route path="/cipipeline" exact component={CiPipeline}/>
-          </Router>
+        <Route path="/pipelines" exact component={Pipeline}/>
+        <Route path="/pipelines/cipipeline" exact component={CiPipeline}/>
         </Card>
       
     </div>
+    </Router>
+
   );
 }
 

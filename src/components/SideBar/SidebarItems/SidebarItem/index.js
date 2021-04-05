@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {NavLink} from 'react-router-dom';
 
 /**
 * @author
@@ -8,9 +9,13 @@ import './style.css';
 
 const SidebarItem = (props) => {
   return(
-    <div className="btn" {...props}>
-      <span style={{marginRight:'15px',marginLeft:'10px'}}>{props.logo}</span>    {props.title}
-    </div>
+   
+    <NavLink className="btn" activeClassName="active"  to={props.link}>
+      <div className="itemDiv" {...props}>
+      <img style={{marginRight:'15px'}} src={props.logo}/>{props.title}
+      </div>
+     </NavLink>
+
    )
 
  }

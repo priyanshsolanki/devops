@@ -12,7 +12,7 @@ const Pipelines = (props) => {
     {
       titleLogo:"CI",
       title:"CI Pipeline",
-      path:"/cipipeline",
+      path:"/pipelines/cipipeline",
       platforms:[
         "GitLab",
         "GitHub",
@@ -22,7 +22,7 @@ const Pipelines = (props) => {
     {
       titleLogo:"CD",
       title:"CD Pipeline",
-      path:"/cdpipeline",
+      path:"/pipelines/cdpipeline",
       platforms:[
           "GitLab",
           "Azure"]
@@ -30,7 +30,7 @@ const Pipelines = (props) => {
      {
       titleLogo:"PR",
       title:"PR Pipeline",
-      path:"/prpipeline",
+      path:"/pipelines/prpipeline",
       platforms:[
           "GitLab",
           "Azure"]
@@ -38,7 +38,7 @@ const Pipelines = (props) => {
      {
       titleLogo:"AP",
       title:"Artifact Promoting Pipeline",
-      path:"/appipeline",
+      path:"/pipelines/appipeline",
         platforms:[
           "GitLab",
           "Azure"]
@@ -46,7 +46,7 @@ const Pipelines = (props) => {
      {
       titleLogo:"AT",
       title:"API Test Pipeline",
-      path:"/atpipeline",
+      path:"/pipelines/atpipeline",
         platforms:[
           "GitLab",
           "Azure"]
@@ -54,7 +54,7 @@ const Pipelines = (props) => {
      {
       titleLogo:"LP",
       title:"Load & Performance Test Pipeline",
-      path:"/lppipeline",
+      path:"/pipelines/lppipeline",
         platforms:[
           "GitLab",
           "Azure"]

@@ -13,7 +13,9 @@
     padding: 2px;
     color: seashell;
     margin: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size:18px;
     font-weight: bold;
     border-radius: 66px;
