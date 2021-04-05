@@ -31,16 +31,19 @@ const CiPipeline = (props) => {
           <h3>Description</h3>
           <p>CI Pipeline is the first step in CI/CD. Whenever you push your code, it compiles, tests it and if required even notifies you about your pushed code. The build server will do this heavy job making developers' lives easier. This can be done with some regularity and you aren't necessarily expected to keep the generated builds out of it.These can sometimes be called snapshot builds. You might deploy these builds to an environment, but only to test.
           </p>
-    <FormControl component="fieldset">
+          
+          <FormControl component="fieldset">
       <FormLabel component="legend">Platforms:</FormLabel>
-      <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
+      <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange} style={{height:'130px'}}>
         <FormControlLabel value="github" control={<Radio />} label="GitHub" />
         <FormControlLabel value="gitlab" control={<Radio />} label="GitLab" />
         <FormControlLabel value="azure" control={<Radio />} label="Azure" />
-        <FormControlLabel value="disabled" disabled control={<Radio />} label="Others" />
       </RadioGroup>
     </FormControl>
-     </div>
+    <Card style={{width:'200px',background:'#000',height:'30px',color:'#fff',textAlign:'center',marginLeft:'40px'}}><span>Download</span></Card>
+          </div>
+    
+     
       </Card>
       </div>
    )
